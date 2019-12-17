@@ -1,0 +1,6 @@
+C:\Users\DSU\source\repos\RPG Final\RPG Final\bin\Debug\RPG Final.exe.config
+C:\Users\DSU\source\repos\RPG Final\RPG Final\bin\Debug\RPG Final.exe
+C:\Users\DSU\source\repos\RPG Final\RPG Final\bin\Debug\RPG Final.pdb
+C:\Users\DSU\source\repos\RPG Final\RPG Final\obj\Debug\RPG Final.csprojAssemblyReference.cache
+C:\Users\DSU\source\repos\RPG Final\RPG Final\obj\Debug\RPG Final.exe
+C:\Users\DSU\source\repos\RPG Final\RPG Final\obj\Debug\RPG Final.pdb
