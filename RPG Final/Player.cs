@@ -25,6 +25,11 @@ namespace RPG
             this.health += healthadd;
         }
 
+        public void IncreaseDamage(int damage)
+        {
+            this.dmg += damage;
+        }
+
         public Player(int health, int dmg, string weapon)
         {
             this.health = health;

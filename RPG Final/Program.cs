@@ -79,7 +79,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy.name, dmg);
 
                         if (enemy.health <= 0)
                             break;
@@ -136,7 +136,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy2.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy2.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy2.name, dmg);
 
                         if (enemy2.health <= 0)
                             break;
@@ -195,7 +195,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy3.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy3.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy3.name, dmg);
 
                         if (enemy3.health <= 0)
                             break;
@@ -253,7 +253,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy4.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy4.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy4.name, dmg);
 
                         if (enemy4.health <= 0)
                             break;
@@ -312,7 +312,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy1.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy1.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy1.name, dmg);
 
                         if (enemy1.health <= 0)
                             break;
@@ -383,7 +383,7 @@ namespace RPG
                 {
                     Console.WriteLine("You find a grindstone from a former adventurer. You use it on your sword " +
                         "and gain 3 points to your attack damage.\n");
-                    player.dmg += 3;
+                    player.IncreaseDamage(3);
 
                 }
                 else if (dmg == 3)
@@ -402,7 +402,7 @@ namespace RPG
                 {
                     Console.WriteLine("You find a longsword from a previous adventurer. It is stronger than " +
                         "your current sword and swap\nthem out. You gain 5 points to your attack damage.\n");
-                    player.dmg += 5;
+                    player.IncreaseDamage(5);
                 }
             }
             else
@@ -446,7 +446,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy.name, dmg);
 
                         if (enemy.health <= 0)
                             break;
@@ -503,7 +503,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy2.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy2.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy2.name, dmg);
 
                         if (enemy2.health <= 0)
                             break;
@@ -560,7 +560,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy3.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy3.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy3.name, dmg);
 
                         if (enemy3.health <= 0)
                             break;
@@ -616,7 +616,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy4.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy4.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy4.name, dmg);
 
                         if (enemy4.health <= 0)
                             break;
@@ -673,7 +673,7 @@ namespace RPG
                         dmg = rand.Next(0, player.dmg);
 
                         enemy1.TakeDamage(dmg);
-                        Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy1.name, dmg);
+                        Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy1.name, dmg);
 
                         if (enemy1.health <= 0)
                             break;
@@ -744,7 +744,7 @@ namespace RPG
                 {
                     Console.WriteLine("You find a grindstone from a former adventurer. You use it on your sword " +
                         "and gain 3 points to your attack damage.\n");
-                    player.dmg += 3;
+                    player.IncreaseDamage(3);
 
                 }
                 else if (dmg == 3)
@@ -763,7 +763,7 @@ namespace RPG
                 {
                     Console.WriteLine("You find a longsword from a previous adventurer. It is stronger than " +
                         "your current sword and swap\nthem out. You gain 5 points to your attack damage.\n");
-                    player.dmg += 5;
+                    player.IncreaseDamage(5);
                 }
             }
             else
@@ -798,7 +798,7 @@ namespace RPG
                     dmg = rand.Next(0, player.dmg);
 
                     enemy5.TakeDamage(dmg);
-                    Console.WriteLine("You hit the {0} for {1} attack points.\n", enemy5.name, dmg);
+                    Console.WriteLine("\nYou hit the {0} for {1} attack points.\n", enemy5.name, dmg);
 
                     if (enemy5.health <= 0)
                         break;
